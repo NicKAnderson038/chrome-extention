@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Simple QR Code Generator",
+  "short_name": "qrcode",
+  "description":
+    "This simple QR Code generator extension provides the user with the current URL.",
+  "version": "1.0",
+  "author": "Nick Anderson",
+  "icons": {
+    "16": "images/icon-16.png",
+    "128": "images/icon-128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "images/icon-19.png",
+      "38": "images/icon-38.png"
+    },
+    "default_title": "Simple QR Code Generator",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "storage"]
+}
